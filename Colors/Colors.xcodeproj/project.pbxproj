@@ -14,6 +14,7 @@
 		1C57AB581F19AE92002F9D7B /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57AB571F19AE92002F9D7B /* ColorsTests.swift */; };
 		1C57AB631F19AE92002F9D7B /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57AB621F19AE92002F9D7B /* ColorsUITests.swift */; };
 		1C57AB711F19B17D002F9D7B /* colorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57AB701F19B17D002F9D7B /* colorsViewController.swift */; };
+		1C57AB731F1EA6DC002F9D7B /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57AB721F1EA6DC002F9D7B /* color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C57AB621F19AE92002F9D7B /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		1C57AB641F19AE92002F9D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C57AB701F19B17D002F9D7B /* colorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorsViewController.swift; sourceTree = "<group>"; };
+		1C57AB721F1EA6DC002F9D7B /* color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1C57AB4B1F19AE92002F9D7B /* LaunchScreen.storyboard */,
 				1C57AB4E1F19AE92002F9D7B /* Info.plist */,
 				1C57AB701F19B17D002F9D7B /* colorsViewController.swift */,
+				1C57AB721F1EA6DC002F9D7B /* color.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C57AB731F1EA6DC002F9D7B /* color.swift in Sources */,
 				1C57AB711F19B17D002F9D7B /* colorsViewController.swift in Sources */,
 				1C57AB431F19AE92002F9D7B /* AppDelegate.swift in Sources */,
 			);
